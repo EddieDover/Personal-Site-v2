@@ -226,7 +226,6 @@ function IndexPage() {
     .then(response => response.json())
     .then(json => {
       setupGithubStuff(json);
-      console.log(json);
     });
 
     fetch("https://www.eddiedover.net/api/wakatime")
