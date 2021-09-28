@@ -257,7 +257,6 @@ function IndexPage() {
           </div>
 
           <SRLWrapper>
-            {
               <div className="flex flex-wrap bg-gray-700 w-11/12 mx-auto h-auto shadow-xl pb-2 pl-2">
               <p className="font-extrabold text-white">Companies I Have Worked For</p>
               <div className="flex flex-wrap w-full h-full">
@@ -270,13 +269,7 @@ function IndexPage() {
                 })}
               </div>
               </div>
-            }
-          </SRLWrapper>
-
-          <br/>
-
-          <SRLWrapper>
-          {
+              <br/>
             <div className="flex flex-wrap bg-gray-700 w-11/12 mx-auto h-auto shadow-xl pb-2 pl-2">
               <p className="font-extrabold text-white">Certificates</p>
             <div className="flex flex-wrap w-full h-full">
@@ -291,7 +284,6 @@ function IndexPage() {
             })}
             </div>
             </div>
-          }
           </SRLWrapper>
 
           <br/>
