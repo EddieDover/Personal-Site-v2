@@ -35,7 +35,7 @@ function SideBar(props) {
             </div>
             <hr className="pb-2" />
             <div id="sidebar-social">
-                <div className="flex items-center"><Mail className="pr-2"/><a href={social.email}>{social.email}</a></div>
+                <div className="flex items-center"><Mail className="pr-2"/><a href={"mailto:"+social.email}>{social.email}</a></div>
                 <div className="flex items-center"><Smartphone className="pr-2"/>{phone}</div>
                 <div className="flex items-center"><Twitter className="pr-2" /><a href={`${social.mastodon}`} target='_blank'>@EddieDover@qoto.org</a></div>
                 <div className="flex items-center"><Linkedin className="pr-2" /><a href={`${social.linkedin}`} target='_blank'>EddieDover</a></div>
