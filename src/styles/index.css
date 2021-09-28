@@ -1,0 +1,212 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headerImg {
+    max-width:1200px;
+    max-height:800px;
+    width:100%;
+}
+
+.techtable {
+    width:100%;
+}
+
+.techtable td {
+    padding:0 15px;
+}
+
+.techtable a {
+    text-decoration: underline;
+}
+
+.techtable thead td {
+    font-weight: bold;
+}
+
+ /* Tab content - closed */
+ .tab-content {
+    max-height: 0;
+    -webkit-transition: max-height .35s;
+    -o-transition: max-height .35s;
+    transition: max-height .35s;
+}
+/* :checked - resize to full height */
+.tab input:checked ~ .tab-content {
+    max-height: 100vh;
+}
+
+#header {
+    height:300px;
+    width:800px;
+    background-color: red;
+}
+
+/* Icon */
+.tab label::after {
+    float:right;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    text-align: center;
+    -webkit-transition: all .35s;
+    -o-transition: all .35s;
+transition: all .35s;
+}
+
+.tab input[type=radio] + label::after {
+    content: "\25BE";
+    font-weight:bold; /*.font-bold*/
+    border-width: 1px; /*.border*/
+    border-radius: 9999px; /*.rounded-full */
+    border-color: #b8c2cc; /*.border-grey*/
+}
+
+.tab input[type=radio]:checked + label::after {
+    transform: rotateX(180deg);
+    background-color:rgba(31, 41, 55, var(--tw-bg-opacity)); /*.bg-indigo*/
+}
+
+/* Old shit */
+
+/* Normal Fader */
+.fade-enter-done {
+    display:flex;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.fade-exit-done {
+    display:none;
+}
+
+.fade-flex-enter-done {
+    display:flex;
+}
+
+.fade-flex-enter {
+    opacity: 0;
+}
+
+.fade-flex-enter-active {
+    opacity: 1;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.fade-flex-exit {
+    opacity: 1;
+}
+
+.fade-flex-exit-active {
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+}
+
+.fade-flex-exit-done {
+    display:none;
+}
+
+/* END ANIMATIONS */
+
+/* Timeline */
+.timeline-events {
+    grid-template-columns:repeat(20, minmax(0,1fr));
+    margin-left:13px;
+}
+
+.timeline-years {
+    grid-template-columns: repeat(20, minmax(0,1fr));
+}
+
+.vl {
+    border-left:2px solid black;
+    height:100px;
+    margin-left:12px;
+    margin-top:-20px; /* -10px * items */
+}
+
+.hl-red {
+    background-color: #ff0000;
+    height:10px;
+}
+
+.hl-blue {
+    background-color: #0000ff;
+    height:10px;
+}
+
+.gc-1-4 {
+    grid-column: 1 / 4;
+}
+
+.gc-2-3 {
+    grid-column: 4 / 6;
+}
+
+.hl-red-2 {
+    background-color: #ff0000;
+    /* margin-left:12px;
+    width:45px; */
+    height:10px;
+}
+
+.hl-blue-3 {
+    background-color: #0000ff;
+    /* margin-left:54px; 54-12 = 42 */
+    /* width:45px; */
+    height:10px;
+}
+
+.testdome-certificate-stamp {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 185px;
+    height: 120px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+    box-sizing: border-box;
+    text-transform: uppercase; }
+    .testdome-certificate-stamp.gold {
+      background-image: url("https://app.testdome.com/content/images/stamp-gold.png?v=2"); }
+    .testdome-certificate-stamp.silver {
+      background-image: url("https://app.testdome.com/content/images/stamp-silver.png?v=2"); }
+    .testdome-certificate-stamp span {
+      display: block;
+      color: #ffffff;
+      font-size: 11px;
+      text-decoration: none;
+      margin-bottom: 5px; }
+      .testdome-certificate-stamp span.testdome-certificate-name {
+        font-size: 14px;
+        text-transform: none; }
+      .testdome-certificate-stamp span.testdome-certificate-card-logo {
+        position: absolute;
+        bottom: 5px; }
+    .testdome-certificate-stamp:hover {
+      text-decoration: none; }
+      .testdome-certificate-stamp:hover span {
+        text-decoration: none; }

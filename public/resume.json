@@ -1,0 +1,107 @@
+{
+    "name" : {
+        "first": "Eddie",
+        "last" : "Dover"
+    },
+    "social" : {
+        "linkedin": "https://www.linkedin.com/in/eddiedover",
+        "github": "https://www.github.com/eddiedover",
+        "mastodon": "https://qoto.org/@EddieDover",
+        "email": "ed@eddiedover.dev",
+        "phone": {
+            "area": "702",
+            "prefix": "602",
+            "line": "7100"
+        }
+    },
+    "ranked_skills": [
+        { "Name": "ASP.NET", "Level": 3},
+        { "Name": "ASP MVC", "Level": 3},
+        { "Name": "Angular", "Level": 3},
+        { "Name":"C#", "Level": 3},
+        { "Name":"C++", "Level": 3},
+        { "Name":"CSS3", "Level":  4},
+        { "Name":"Coldfusion", "Level":  3},
+        { "Name":"Git", "Level":  4},
+        { "Name":"Github", "Level":  4},
+        { "Name":"Go(lang)", "Level":  2},
+        { "Name":"HTML5", "Level":  4},
+        { "Name":"Java", "Level": 3},
+        { "Name":"JavaScript", "Level":  4},
+        { "Name":"jQuery", "Level": 4},
+        { "Name":"PHP", "Level":  3},
+        { "Name":"Python", "Level":  3},
+        { "Name":"ReactJS", "Level":  3},
+        { "Name":"Rust", "Level":  2},
+        { "Name":"SASS", "Level":  3},
+        { "Name":"REST", "Level":  3},
+        { "Name":"Tailwind", "Level":3},
+        { "Name":"TypeScript", "Level":  4},
+        { "Name":"Wordpress", "Level": 4}
+    ],
+    "experience" : [
+        {
+            "title": "This Website",
+            "company":"", "location":"", "start": "2020", "end":"Present",
+            "technologies":["JavaScript", "ReactJS", "TailwindCSS"]
+
+        },
+        {
+          "title": "Senior Software Developer",
+          "company": "University of Nevada - Las Vegas",
+          "location": "Las Vegas, NV",
+          "start": "July 2018",
+          "end": "Present",
+          "technologies": ["C#", "ASP.NET", "ASP MVC", "Java", "Angular" , "SASS", "HTML", "CSS", "TypeScript", "JavaScript", "jQuery", "Git"],
+          "responsibilities": [
+            "Collaborate with over a dozen members of the USDA and FIANP to determine changes necessary for maintaining legacy applications and developing new applications.",
+            "Mentor multiple student and Junior level developers.",
+            "Analyze user needs and software requirements to determine feasibility of design within time and cost constraints."
+          ]
+        },
+        {
+            "title": "Senior Web Developer",
+            "company": "Maverick Helicopters, Inc.",
+            "location": "Las Vegas, NV",
+            "start": "March 2015",
+            "end": "July 2018",
+            "technologies": ["C#", "ASP.NET", "ASP MVC", "WordPress", "HTML", "CSS", "jQuery", "JavaScript", "Git"],
+            "responsibilities": [
+                "Performed or directed website updates to 3 different corporate sites.",
+                "Created an internal corporate dashboard to save on Sharepoint licensing costs.",
+                "Negotiated with social media departments and users to prioritize development needs and choose solutions.",
+                "Evaluated code to ensure that it was valid, properly structured, met industry standards and was compatible with modern browsers, devices, and operating systems.",
+                "Developed a custom in-house APIs used to incorporate three 3rd-party APIs into legacy and new software solutions."
+            ]
+        },
+        {
+            "title": "Senior Software Developer",
+            "company": "Starpoint Resort Group, LLC",
+            "location": "Las Vegas, NV",
+            "start": "March 2012",
+            "end": "March 2015",
+            "technologies": ["Python", "C#", "WordPress", "C++", "ColdFusion", "HTML", "CSS", "PHP", "Java", "JavaScript", "jQuery", "Git"],
+            "responsibilities": [
+                "Architected two tablet, two mobile applications, and system backends for use by two sales teams.",
+                "Built web-service integrations to over 5 corporate services, such as Capital One, FATCO, SPI, DAE, and LeisureLink.",
+                "Designed and developed one public facing reservations systems and two public facing websites.",
+                "Modified existing software to correct errors, adapt it to new hardware, and improve performance."
+            ]
+        },
+        {
+            "title": "Senior Web Application Developer",
+            "company": "WebTron, Inc.",
+            "location": "Miami, FL",
+            "start": "November 2009",
+            "end": "March 2012",
+            "technologies": ["ColdFusion", "PHP", "C#", "Subversion", "HTML", "CSS", "JavaScript", "jQuery", "Git"],
+            "responsibilities": [
+                "Met with over a dozen clients to discuss needs and develop custom web applications.",
+                "Created WSDL and RESTful web services for both the public and corporate employees.",
+                "Conceptualized, coded, and maintained six corporate web sites, using authoring or scripting languages, content creation tools, and management tools.",
+                "Researched, documented, rated, and selected alternatives for web architecture or technologies.",
+                "Recommended new technologies and trained employees on use after implementation."
+            ]
+        }
+      ]
+}
