@@ -31,7 +31,9 @@ function SideBar(props) {
                 {name}
             </div>
             <div className="text-center text-sm text-gray-400 pb-2">
-                Senior Software Developer<br/>Senior Web Developer
+                Senior Software Developer
+                <br/>
+                Senior Web Developer
             </div>
             <hr className="pb-2" />
             <div id="sidebar-social">
